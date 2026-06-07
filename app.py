@@ -1,9 +1,10 @@
 import streamlit as st
 import pandas as pd
-import joblib
+import pickle
 
 # Load trained model
-model = joblib.load("car_price_model.pkl")
+with open("car_price_model.pkl", "rb") as f:
+    model = pickle.load(f)
 
 # Page Title
 st.title("🚗 Used Car Price Prediction")
