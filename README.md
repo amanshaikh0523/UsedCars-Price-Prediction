@@ -31,3 +31,6 @@ Used_Cars_price_pre.ipynb – Data analysis and model development
 car_price_model.pkl – Trained machine learning model
 UsedCars_Aman_shaikh.pbix – Power BI dashboard
 requirements.txt – Project dependencies
+
+## Live Demo
+https://usedcars-price-prediction-78ntu7sancnrf6v8uqyvev.streamlit.app/
